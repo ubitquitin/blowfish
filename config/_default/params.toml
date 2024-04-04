@@ -37,13 +37,13 @@ disableImageOptimization = true
 [homepage]
   layout = "profile" # valid options: page, profile, hero, card, background, custom
   #homepageImage = "IMAGE.jpg" # used in: hero, and card
-  showRecent = false
-  showRecentItems = 5
+  showRecent = true
+  showRecentItems = 10
   showMoreLink = false
-  showMoreLinkDest = "/posts"
-  cardView = false
+  showMoreLinkDest = "/projects"
+  cardView = true
   cardViewScreenWidth = false
-  layoutBackgroundBlur = false # only used when layout equals background
+  layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
   showDate = true
@@ -52,10 +52,10 @@ disableImageOptimization = true
   showDateUpdated = false
   showAuthor = true
   showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
@@ -64,30 +64,30 @@ disableImageOptimization = true
   showHeadingAnchors = true
   showPagination = true
   invertPagination = false
-  showReadingTime = true
+  showReadingTime = false
   showTableOfContents = false
   # showRelatedContent = false
   # relatedContentLimit = 3
   showTaxonomies = false
   showAuthorsBadges = false
-  showWordCount = true
+  showWordCount = false
   # sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "email", "whatsapp", "telegram"]
 
 [list]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = false
-  showSummary = false
+  showSummary = true
   showViews = false
   showLikes = false
   showTableOfContents = false
-  showCards = false
-  groupByYear = true
-  cardView = false
+  showCards = true
+  groupByYear = false
+  cardView = true
   cardViewScreenWidth = false
-  constrainItemsWidth = false
+  constrainItemsWidth = true
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
